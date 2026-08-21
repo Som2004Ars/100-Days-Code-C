@@ -5,27 +5,6 @@ Q18: Write a program that accepts a percentage (0-100) and assigns a grade based
 70-79: Grade C 
 60-69: Grade D 
 below 60: Grade F.
-
-Sample Test Cases:
-Input 1:
-95
-Output 1:
-Grade A
-
-Input 2:
-82
-Output 2:
-Grade B
-
-Input 3:
-68
-Output 3:
-Grade D
-
-Input 4:
-50
-Output 4:
-Grade F
 */
 
 #include <stdio.h>
