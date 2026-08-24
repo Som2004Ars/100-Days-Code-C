@@ -32,7 +32,7 @@ int main()
         bill = (100 * 5) + (100 * 7) + (100 * 10) + ((units - 300) * 12);
     }
 
-    printf("Electricity Bill = Rs.%.2f", bill);
+    printf("Electricity Bill: Rs.%.2f", bill);
 
     return 0;
 }
