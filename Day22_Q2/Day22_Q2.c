@@ -25,17 +25,17 @@ int main() {
     for (k = 1; k <= n; k++) {
         if (k == 1) {
             term = 1.0;
-            printf("Term %d = 1\n", k);
+            printf("Term %d: 1\n", k);
         } else {
             double numerator = 2 * k - 1;
             double denominator = 2 * k;
             term = numerator / denominator;
-            printf("Term %d = %.0f/%.0f = %.4f\n", k, numerator, denominator, term);
+            printf("Term %d: %.0f/%.0f = %.4f\n", k, numerator, denominator, term);
         }
         sum += term;
     }
 
-    printf("\nSum of the series up to %d terms = %.4f\n", n, sum);
+    printf("\nSum of the series up to %d terms: %.4f\n", n, sum);
 
     return 0;
 }
